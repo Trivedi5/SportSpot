@@ -6,16 +6,16 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class OwnerLoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        TextView btnBackCustomer = findViewById(R.id.btnBackCustomer);
+        setContentView(R.layout.activity_owner_login);
+        TextView btnBackOwner = findViewById(R.id.btnBackOwner);
 
-        btnBackCustomer.setOnClickListener(v -> {
-            finish(); // goes back to Role Selection
+        btnBackOwner.setOnClickListener(v -> {
+            finish(); // goes back
         });
     }
 }

@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:text="WELCOME."
-            android:textColor="@color/blue"
+            android:textColor="#1E40FF"
             android:textSize="28sp"
             android:textStyle="bold" />
 
@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign in to continue!"
-            android:textColor="@color/black"
+            android:textColor="#444444"
             android:textSize="18sp" />
 
         <ImageView
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
             android:text="Sign in as:"
-            android:textColor="@color/black"
+            android:textColor="#222222"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -59,7 +59,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="As Owner"
-                android:textColor="@color/black"
+                android:textColor="#222222"
                 android:textSize="20sp" />
 
             <RadioButton
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:text="As Customer"
-                android:textColor="@color/black"
+                android:textColor="#222222"
                 android:textSize="20sp" />
         </RadioGroup>
 
@@ -79,7 +79,7 @@
             android:layout_marginTop="40dp"
             android:text="SIGN IN"
             android:textColor="@android:color/white"
-            android:backgroundTint="@color/blue" />
+            android:backgroundTint="#1E40FF" />
 
         <TextView
             android:id="@+id/txtSignUp"
@@ -88,7 +88,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
             android:text="Don't have an account? Sign Up"
-            android:textColor="@color/black"
+            android:textColor="#444444"
             android:textSize="16sp" />
 
     </LinearLayout>

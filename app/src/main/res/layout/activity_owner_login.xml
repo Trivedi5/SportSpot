@@ -12,7 +12,7 @@
         android:gravity="center_horizontal">
 
         <TextView
-            android:id="@+id/btnBackCustomer"
+            android:id="@+id/btnBackOwner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
@@ -23,7 +23,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/imgLogoMain"
+            android:id="@+id/imgOwnerLogo"
             android:layout_width="110dp"
             android:layout_height="110dp"
             android:layout_marginTop="20dp"
@@ -31,7 +31,7 @@
             android:contentDescription="App Logo" />
 
         <TextView
-            android:id="@+id/txtAppTitle"
+            android:id="@+id/txtOwnerTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
@@ -41,26 +41,26 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/txtLoginTitle"
+            android:id="@+id/txtOwnerLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Customer Login"
+            android:text="Owner Login"
             android:textColor="#222222"
             android:textSize="24sp"
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/edtEmail"
+            android:id="@+id/edtOwnerEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="Email"
+            android:hint="Owner Email"
             android:inputType="textEmailAddress"
             android:padding="12dp" />
 
         <EditText
-            android:id="@+id/edtPassword"
+            android:id="@+id/edtOwnerPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -69,7 +69,7 @@
             android:padding="12dp" />
 
         <Button
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnOwnerLogin"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="24dp"
@@ -78,11 +78,11 @@
             android:textColor="@android:color/white" />
 
         <TextView
-            android:id="@+id/txtRegister"
+            android:id="@+id/txtOwnerRegister"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Don't have an account? Register"
+            android:text="Don't have an owner account? Register"
             android:textColor="#444444"
             android:textSize="16sp" />
 
