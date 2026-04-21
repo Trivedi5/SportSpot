@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btnBackAddCourt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/txtAddCourtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Court"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <ImageView
+            android:id="@+id/imgCourtPreview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/spot"
+            android:contentDescription="Court Preview" />
+
+        <Button
+            android:id="@+id/btnChooseImage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:text="Choose Court Image"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#666666" />
+
+        <EditText
+            android:id="@+id/edtCourtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="Court Name"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtSportType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Sport Type"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Price per hour"
+            android:padding="12dp"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:hint="Location"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/txtFacilitiesAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Facilities"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <CheckBox
+            android:id="@+id/checkParkingAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Parking" />
+
+        <CheckBox
+            android:id="@+id/checkLightsAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights" />
+
+        <CheckBox
+            android:id="@+id/checkWashroomAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Washroom" />
+
+        <Button
+            android:id="@+id/btnSaveCourt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Save Court"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1E40FF" />
+
+    </LinearLayout>
+</ScrollView>

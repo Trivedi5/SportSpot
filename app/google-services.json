@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389968302180",
+    "project_id": "sportspot-d6db5",
+    "storage_bucket": "sportspot-d6db5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389968302180:android:a2effa8840a6752daa4f71",
+        "android_client_info": {
+          "package_name": "com.example.sportspot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgbwlL-Es6T-xqgaLwxhtf34ZXsUJQOGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

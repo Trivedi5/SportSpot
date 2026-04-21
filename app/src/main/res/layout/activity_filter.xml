@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btnBackFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/txtFilterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Filters"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <TextView
+            android:id="@+id/txtSportType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sport Type"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioTennis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tennis" />
+
+            <RadioButton
+                android:id="@+id/radioBasketball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basketball" />
+
+            <RadioButton
+                android:id="@+id/radioSoccer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soccer" />
+
+            <RadioButton
+                android:id="@+id/radioBadminton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Badminton" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/txtPriceRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Price Range"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edtPriceRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Example: $10 - $50"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Distance"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <EditText
+            android:id="@+id/edtDistance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Example: Under 5 km"
+            android:inputType="text"
+            android:padding="12dp" />
+
+        <TextView
+            android:id="@+id/txtFacilities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Facilities"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+
+        <CheckBox
+            android:id="@+id/checkParking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Parking" />
+
+        <CheckBox
+            android:id="@+id/checkLights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lights" />
+
+        <CheckBox
+            android:id="@+id/checkWashroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Washroom" />
+
+        <Button
+            android:id="@+id/btnApplyFilter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="Apply Filters"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1E40FF" />
+
+    </LinearLayout>
+</ScrollView>
